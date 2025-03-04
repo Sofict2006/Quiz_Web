@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Medianos' Burdel</title>
+    
+</head>
+<body>
+
+    <header>
+        <nav> 
+          <div>
+            <p>¡Medianos para todos!</p>
+          </div> 
+          <ul>
+            <li><a href="#agregar">Agregar Placa</a></li>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+
+          </ul>
+        </nav>
+    </header>
+
+    <h2>Gestión de placas - Burdel: Medianos para ti, para mí y para todos</h2>
+    <div class="tabla">
+    <table>
+        <thead>
+            <tr>
+                <th>Número de Placa</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Color</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody id="placasTable">
+            <tr>
+                <td>ABC123</td>
+                <td>Toyota</td>
+                <td>2</td>
+                <td>Rojo</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>XYZ789</td>
+                <td>Honda</td>
+                <td>48</td>
+                <td>Azul</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>DEF123</td>
+                <td>Ferrari</td>
+                <td>6</td>
+                <td>Rosao</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>GHI789</td>
+                <td>Honda</td>
+                <td>33</td>
+                <td>Amarillo</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>JKL789</td>
+                <td>Mercedes</td>
+                <td>81</td>
+                <td>Negro</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>MNO123</td>
+                <td>Aston Martin</td>
+                <td>9</td>
+                <td>Blanco</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>PQR789</td>
+                <td>McLaren</td>
+                <td>7</td>
+                <td>Naranja</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>STU123</td>
+                <td>Aston Martin</td>
+                <td>5</td>
+                <td>Morado</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+            <tr>
+                <td>VWX789</td>
+                <td>McLaren</td>
+                <td>4</td>
+                <td>Azul</td>
+                <td><button>Eliminar</button></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <h2 id="agregar">Registro de Placas</h2>
+    <form id="placaForm">
+        <br>
+        <input type="text" id="placa" placeholder="Número de placa" required>
+        <input type="text" id="marca" placeholder="Marca" required>
+        <input type="text" id="modelo" placeholder="Modelo" required>
+        <input type="text" id="color" placeholder="Color" required>
+        <br>
+        <button class="btnagregar" type="submit">Registrar Placa</button>
+    </form>
+    
+    <br>
+    <br>
+    <br>
+
+        <h2 id="nosotros">Sobre Nosotros</h2>
+
+
+
+    <div class="about">
+
+        <div class="about_otro">
+            <h3>Misión</h3>
+            <p class="texto">Soy Juan Pablo Agudelo, y mi propósito es revolucionar la gestión del acceso en mi humilde establecimiento. Después de años de drogas, adicción al LoL y desidia encontré en el emprendimiento una nueva oportunidad de crecimiento. Inspirado en su amor por la noche y las oportunidades que esta ofrece, fundé el burdel "Medianos para ti, para mí y para todos". Mi misión es ofrecer una experiencia segura y organizada a mis clientes, asegurando que cada detalle del negocio de mediamos fluya sin contratiempos, incluyendo el control de las placas de los vehículos que ingresan.</p>
+        </div>
+        <br>
+
+        <div class="about_otro">
+            <h3>Visión</h3>
+            <p class="texto">Aspiro a consolidar mi establecimiento como un referente en la industria de los medianos, reconocido no solo por su calidad de servicio, sino también por su innovación en logística y seguridad. Con la ayuda de la tecnología y el compromiso de mi equipo, transformaré la forma en que se administra el acceso de vehículos, garantizando eficiencia y confianza tanto para clientes como para colaboradores.</p>
+        </div>
+    </div>
+
+</body>
+</html>
